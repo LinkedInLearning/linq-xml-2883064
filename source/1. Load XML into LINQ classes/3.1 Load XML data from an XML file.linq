@@ -7,7 +7,8 @@ var root = Path.GetDirectoryName(Util.CurrentQueryPath);
 var upPath = @"\..\";
 var path = @"BigStarCollectibles.xml";
 var loaded = XElement.Load(root + upPath + path);
+// why not XmlElement (because that name is from earlier XML libraries)
 
 Console.WriteLine(loaded);
 
-//loaded.Dump();
+//loaded.Dump("Add at title here");
