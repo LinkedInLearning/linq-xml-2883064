@@ -7,7 +7,6 @@ var path = @"BigStarCollectibles-NoSchema.xml";
 var collectibles = XElement.Load(root + upPath + path);
 #endregion
 
-XNamespace theNamespace = "http://bigstarcollectibles.com/course-examples";
 // use the .Element to get a single element by name
 // gets the first matching element
 //collectibles.Dump();
