@@ -1,0 +1,15 @@
+<Card card-name="Mingle" team-name="BlueShadows" rarity="Rare" collector-number="31/249" card-family="Monster">
+      <Slogan>Double Trouble</Slogan>
+      <Description>Mingle excels at doing twice the work in half the time, with pinpoint accuracy.  These skills serve her well in her role as Senior Data Analyst for an international cloud computing company. She's also got a penchant for ballroom dance, line dancing, and pretty much any kind of activity that lets her groove to music.</Description>
+      <PublishedDate>2007-04-07</PublishedDate>
+      <ImageUri>Monster-Mingle-card.png</ImageUri>
+      <Prices>
+        <CatalogPrice>5.99</CatalogPrice>
+        <BidPrice>15.95</BidPrice>
+      </Prices>
+      <Monster>
+        <Antenna>false</Antenna>
+        <Spikes>false</Spikes>
+        <EyeCount>2</EyeCount>
+      </Monster>
+</Card>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Example data for LinkedIn Learning course
+     Course name: .NET Essentials: LINQ for XML
+
+     Note: This XML example is for demonstration purposes. It contains data in elements and attributes.
+     <Cards> represent a cards in collectible deck-building card games
+-->
+
+<bigstar:Collectibles xmlns:bigstar="http://bigstarcollectibles.com/course-examples"
+											xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+											xsi:schemaLocation="bigstarcollectibles.com/course-examples BigStarCollectibles.xsd" >
+
+	<bigstar:Card card-name="Mingle" team-name="BlueShadows" rarity="Rare" collector-number="31/249" card-family="Monster">
+		<bigstar:Slogan>Double Trouble</bigstar:Slogan>
+		<bigstar:Description>Mingle excels at doing twice the work in half the time, with pinpoint accuracy.  These skills serve her well in her role as Senior Data Analyst for an international cloud computing company. She's also got a penchant for ballroom dance, line dancing, and pretty much any kind of activity that lets her groove to music.</bigstar:Description>
+			<bigstar:PublishedDate>2007-04-07</bigstar:PublishedDate>
+				<bigstar:ImageUri>Monster-Mingle-card.png</bigstar:ImageUri>
+
+		<bigstar:Prices>
+			<bigstar:CatalogPrice>5.99</bigstar:CatalogPrice>
+				<bigstar:BidPrice>15.95</bigstar:BidPrice>
+
+			</bigstar:Prices>
+		<bigstar:Monster>
+			<bigstar:Antenna>false</bigstar:Antenna>
+				<bigstar:Spikes>false</bigstar:Spikes>
+					<bigstar:EyeCount>2</bigstar:EyeCount>
+			</bigstar:Monster>
+		</bigstar:Card>
+
+
+
+</bigstar:Collectibles>

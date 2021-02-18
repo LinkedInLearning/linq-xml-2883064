@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+					 targetNamespace="http://bigstarcollectibles.com/course-examples"
+					 xmlns="http://bigstarcollectibles.com/course-examples BigStarCollectibles.xsd"
+					 >
+	
+	<xs:element name="Collectibles">
+
+		
+		<xs:complexType>
+			<xs:sequence>
+			
+							<xs:element maxOccurs="unbounded" name="Card">
+								
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Slogan" type="xs:string"/>
+										<xs:element name="Description" type="xs:string"/>
+										<xs:element name="PublishedDate" type="xs:date"/>
+										<xs:element name="ImageUri" type="xs:anyURI"/>
+									
+									
+										<xs:element name="Prices">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="CatalogPrice" type="xs:decimal"/>
+													<xs:element name="BidPrice" type="xs:decimal"/>
+											
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element minOccurs="0" name="Robot">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="PowerSource"  >
+														<xs:simpleType  >
+															<xs:restriction base="xs:string">
+																<xs:enumeration value="Fission" />
+																<xs:enumeration value="Battery" />
+																<xs:enumeration value="Solar" />
+															</xs:restriction>
+														</xs:simpleType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element minOccurs="0" name="Monster">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="Antenna" type="xs:boolean" />
+													<xs:element name="Spikes" type="xs:boolean"/>
+													<xs:element name="EyeCount" type="xs:integer"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="card-name" type="xs:string" use="required" />
+									<xs:attribute name="team-name"  use="required" >
+										<xs:simpleType  >
+											<xs:restriction base="xs:string">
+												<xs:enumeration value="BattleStars" />
+												<xs:enumeration value="BlueShadows" />
+												<xs:enumeration value="Thunderheads" />
+												<xs:enumeration value="Spooktones" />
+												<xs:enumeration value="Crashmasters" />
+												<xs:enumeration value="Mavericks" />
+												<xs:enumeration value="LaserPhasers" />
+												<xs:enumeration value="Helios" />
+												<xs:enumeration value="Farsiders" />
+												<xs:enumeration value="SuperNovas" />
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="rarity"  use="optional" >
+										<xs:simpleType  >
+											<xs:restriction base="xs:string">
+												<xs:enumeration value="Rare" />
+												<xs:enumeration value="Uncommon" />
+												<xs:enumeration value="Common" />
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="collector-number" type="xs:string" use="optional" />
+
+									<xs:attribute name="card-family"  use="optional" >
+										<xs:simpleType  >
+											<xs:restriction base="xs:string">
+												<xs:enumeration value="Monster" />
+												<xs:enumeration value="Robot" />
+												<xs:enumeration value="Alien" />
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+								
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
