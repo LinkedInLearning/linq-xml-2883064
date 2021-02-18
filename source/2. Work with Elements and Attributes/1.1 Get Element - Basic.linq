@@ -18,3 +18,7 @@ firstCard.Dump();
 XNode nextCard = firstCard.NextNode; // return the next sibling (in this example, the next XElement)
 
 nextCard.Dump();
+
+nextCard = nextCard.NextNode; // return the 3rd sibling (in this example, the next XElement)
+
+nextCard.Dump();
