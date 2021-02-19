@@ -7,134 +7,123 @@
 -->
 
 <Collectibles>
-     <Card card-name="Mingle" team-name="BlueShadows" rarity="Rare" collector-number="31/249" card-family="Monster">
-			<Slogan>Double Trouble</Slogan>
-      <Description>Mingle excels at doing twice the work in half the time, with pinpoint accuracy.  These skills serve her well in her role as Senior Data Analyst for an international cloud computing company. She's also got a penchant for ballroom dance, line dancing, and pretty much any kind of activity that lets her groove to music.</Description>
-	    <PublishedDate>2007-04-07</PublishedDate>
-			<ImageUri>Monster-Mingle-card.png</ImageUri>
-  
-      <Prices>
-        <CatalogPrice>5.99</CatalogPrice>
-        <BidPrice>15.95</BidPrice>
-        
-      </Prices>
-      <Monster>
-        <Antenna>false</Antenna>
-        <Spikes>false</Spikes>
-        <EyeCount>2</EyeCount>
-      </Monster>
-    </Card>
-   
-    <Card card-name="Yodel" rarity="Uncommon" team-name="Spooktones" collector-number="47/249" card-family="Monster">
-			<Slogan>Yodelay Hee Hoo!</Slogan>
-      <Description>Yodel grew up in a family of singers and loud talkers and could never get a word in edgewise. Then his vast talent for yodeling emerged. Now he performs to adoring fans throughout the world, and always has the loudest voice at the dinner table. Incidentally, he's also a loud proponent of net neutrality, and spends countless hours moderating an internet forum devoted solely to that subject.</Description>
-      <PublishedDate>2018-05-05</PublishedDate>
-			<ImageUri>Monster-Mingle-card.png</ImageUri>
-      <Prices>
-        <CatalogPrice>5.99</CatalogPrice>
-        <BidPrice>6.95</BidPrice>
-       
-      </Prices>
+	<Card card-name="Mingle" team-name="BlueShadows" rarity="Rare" collector-number="31/249" card-family="Monster">
+		<Slogan>Double Trouble</Slogan>
+		<Description>Mingle excels at doing twice the work in half the time, with pinpoint accuracy.  These skills serve her well in her role as Senior Data Analyst for an international cloud computing company. She's also got a penchant for ballroom dance, line dancing, and pretty much any kind of activity that lets her groove to music.</Description>
+		<PublishedDate>2007-04-07</PublishedDate>
+		<ImageUri>Monster-Mingle-card.png</ImageUri>
 
-			<Monster>
-				<Antenna>false</Antenna>
-				<Spikes>true</Spikes>
-				<EyeCount>2</EyeCount>
-			</Monster>
- 
-    </Card>
-		<Card card-name="Squido" rarity="Uncommon" team-name="Thunderheads" collector-number="17/249" card-family="Monster">
-			<Slogan>An Eye for Design</Slogan>
-			<Description>Squido's got his hands or rather tentacles, in everything. First and foremost, he's a web designer with an eye for visual aesthetics, but he's also rather keen on UX design and making sure what he creates translates optimally to the end user. In his off-hours he's an avid nature photographer and bowler.</Description>
-			<PublishedDate>2014-07-05</PublishedDate>
-			<ImageUri>Monster-Squido-card.png</ImageUri>
-			<Prices>
-				<CatalogPrice>2.99</CatalogPrice>
-				<BidPrice>13.95</BidPrice>
+		<Prices>
+			<CatalogPrice>5.99</CatalogPrice>
+			<BidPrice>15.95</BidPrice>
+		</Prices>
+		<Monster>
+			<Antenna>false</Antenna>
+			<Spikes>false</Spikes>
+			<EyeCount>2</EyeCount>
+		</Monster>
+	</Card>
 
-			</Prices>
+	<Card card-name="Yodel" rarity="Uncommon" team-name="Spooktones" collector-number="47/249" card-family="Monster">
+		<Slogan>Yodelay Hee Hoo!</Slogan>
+		<Description>Yodel grew up in a family of singers and loud talkers and could never get a word in edgewise. Then his vast talent for yodeling emerged. Now he performs to adoring fans throughout the world, and always has the loudest voice at the dinner table. Incidentally, he's also a loud proponent of net neutrality, and spends countless hours moderating an internet forum devoted solely to that subject.</Description>
+		<PublishedDate>2018-05-05</PublishedDate>
+		<ImageUri>Monster-Mingle-card.png</ImageUri>
+		<Prices>
+			<CatalogPrice>5.99</CatalogPrice>
+			<BidPrice>6.95</BidPrice>
+		</Prices>
 
-			<Monster>
-				<Antenna>false</Antenna>
-				<Spikes>true</Spikes>
-				<EyeCount>2</EyeCount>
-			</Monster>
+		<Monster>
+			<Antenna>false</Antenna>
+			<Spikes>true</Spikes>
+			<EyeCount>2</EyeCount>
+		</Monster>
 
-		</Card>
-		<Card card-name="Skedaddle" rarity="Rare" team-name="Spooktones" collector-number="204/249" card-family="Monster">
-			<Slogan>Game of Life</Slogan>
-				<Description>When Skedaddle was a teenager, his parents couldn't keep him away from his Game Boy. In fact, they seriously worried that he might not find a suitable career.  Now as a prominent game developer for Red30 Tech, he's found his true calling…and put his family's worries to rest. You probably could have guessed this, but in his spare time Skedaddle loves to pay computer games.</Description>
-			<PublishedDate>2019-10-28</PublishedDate>
-			<ImageUri>Monster-Skedaddle-card.png</ImageUri>
-			<Prices>
-				<CatalogPrice>7.99</CatalogPrice>
-				<BidPrice>26.95</BidPrice>
+	</Card>
+	<Card card-name="Squido" rarity="Uncommon" team-name="Thunderheads" collector-number="17/249" card-family="Monster">
+		<Slogan>An Eye for Design</Slogan>
+		<Description>Squido's got his hands or rather tentacles, in everything. First and foremost, he's a web designer with an eye for visual aesthetics, but he's also rather keen on UX design and making sure what he creates translates optimally to the end user. In his off-hours he's an avid nature photographer and bowler.</Description>
+		<PublishedDate>2014-07-05</PublishedDate>
+		<ImageUri>Monster-Squido-card.png</ImageUri>
+		<Prices>
+			<CatalogPrice>2.99</CatalogPrice>
+			<BidPrice>13.95</BidPrice>
+		</Prices>
 
-			</Prices>
+		<Monster>
+			<Antenna>false</Antenna>
+			<Spikes>true</Spikes>
+			<EyeCount>2</EyeCount>
+		</Monster>
+	</Card>
+	<Card card-name="Skedaddle" rarity="Rare" team-name="Spooktones" collector-number="204/249" card-family="Monster">
+		<Slogan>Game of Life</Slogan>
+		<Description>When Skedaddle was a teenager, his parents couldn't keep him away from his Game Boy. In fact, they seriously worried that he might not find a suitable career.  Now as a prominent game developer for Red30 Tech, he's found his true calling…and put his family's worries to rest. You probably could have guessed this, but in his spare time Skedaddle loves to pay computer games.</Description>
+		<PublishedDate>2019-10-28</PublishedDate>
+		<ImageUri>Monster-Skedaddle-card.png</ImageUri>
+		<Prices>
+			<CatalogPrice>7.99</CatalogPrice>
+			<BidPrice>26.95</BidPrice>
+		</Prices>
 
-			<Monster>
-				<Antenna>false</Antenna>
-				<Spikes>false</Spikes>
-				<EyeCount>1</EyeCount>
-			</Monster>
+		<Monster>
+			<Antenna>false</Antenna>
+			<Spikes>false</Spikes>
+			<EyeCount>1</EyeCount>
+		</Monster>
 
-		</Card>
+	</Card>
 
-		<Card card-name="Rex" rarity="Uncommon" team-name="Crashmasters" collector-number="06/143" card-family="Robot">
-			<Slogan>Great Microcontrollers Think Alike</Slogan>
-			<Description>Rex is the Mayor of Binaryville, and a well-loved personality in town. He rose to robotdom from a microprocessor plant on the south side of town, where many famous and influential robots before him were conceived.
-			</Description>
-			<PublishedDate>2016-09-16</PublishedDate>
-			<ImageUri>Robot-Rex-card.png</ImageUri>
-			<Prices>
-				<CatalogPrice>5.99</CatalogPrice>
-				<BidPrice>17.95</BidPrice>
+	<Card card-name="Rex" rarity="Uncommon" team-name="Crashmasters" collector-number="06/143" card-family="Robot">
+		<Slogan>Great Microcontrollers Think Alike</Slogan>
+		<Description>Rex is the Mayor of Binaryville, and a well-loved personality in town. He rose to robotdom from a microprocessor plant on the south side of town, where many famous and influential robots before him were conceived.
+		</Description>
+		<PublishedDate>2016-09-16</PublishedDate>
+		<ImageUri>Robot-Rex-card.png</ImageUri>
+		<Prices>
+			<CatalogPrice>5.99</CatalogPrice>
+			<BidPrice>17.95</BidPrice>
+		</Prices>
 
-			</Prices>
+		<Robot>
+			<PowerSource>Battery</PowerSource>
+		</Robot>
 
-			<Robot>
-				<PowerSource>Battery</PowerSource>
-				
-			</Robot>
-
-		</Card>
-		<Card card-name="Rivet" rarity="Common" team-name="Mavericks" collector-number="58/143" card-family="Robot">
-			<Slogan>Hauling mud since 2012</Slogan>
-			<Description>
+	</Card>
+	<Card card-name="Rivet" rarity="Common" team-name="Mavericks" collector-number="58/143" card-family="Robot">
+		<Slogan>Hauling mud since 2012</Slogan>
+		<Description>
 				Rivet descended from an assembly line of amphibious robots, but never quite took to deep water - though he does love rolling around in mucky marshes and soaking up the mud on vacation. With his advanced temperature sensors and all-weather construction, he's often dispatched to remote regions all around the world to help with disaster relief work.
-			</Description>
-			<PublishedDate>2016-09-16</PublishedDate>
-			<ImageUri>Robot-Rivet-card.png</ImageUri>
-			<Prices>
-				<CatalogPrice>6.99</CatalogPrice>
-				<BidPrice>3.95</BidPrice>
+		</Description>
+		<PublishedDate>2016-09-16</PublishedDate>
+		<ImageUri>Robot-Rivet-card.png</ImageUri>
+		<Prices>
+			<CatalogPrice>6.99</CatalogPrice>
+			<BidPrice>3.95</BidPrice>
+		</Prices>
 
-			</Prices>
+		<Robot>
+			<PowerSource>Fission</PowerSource>
+		</Robot>
 
-			<Robot>
-				<PowerSource>Fission</PowerSource>
-
-			</Robot>
-
-		</Card>
-		<Card card-name="Cosmo" rarity="Rare" team-name="Crashmasters" collector-number="141/143" card-family="Robot">
-			<Slogan>To Mars and back</Slogan>
-			<Description>
+	</Card>
+	<Card card-name="Cosmo" rarity="Rare" team-name="Crashmasters" collector-number="141/143" card-family="Robot">
+		<Slogan>To Mars and back</Slogan>
+		<Description>
 				For an esteemed aeronautical engineer who manned the first ever flight to Mars from Binaryville (or anywhere), Cosmo is one of the most down-to-earth folks you'll ever meet. His favorite pastimes are playing bingo, soaking up the sun at Binaryville Beach, and reading spy novels.
-			</Description>
-			<PublishedDate>2017-01-03</PublishedDate>
-			<ImageUri>Robot-Cosmo-card.png</ImageUri>
-			<Prices>
-				<CatalogPrice>6.99</CatalogPrice>
-				<BidPrice>33.95</BidPrice>
+		</Description>
+		<PublishedDate>2017-01-03</PublishedDate>
+		<ImageUri>Robot-Cosmo-card.png</ImageUri>
+		<Prices>
+			<CatalogPrice>6.99</CatalogPrice>
+			<BidPrice>33.95</BidPrice>
+		</Prices>
 
-			</Prices>
-
-			<Robot>
-				<PowerSource>Solar</PowerSource>
-
-			</Robot>
-		</Card>
+		<Robot>
+			<PowerSource>Solar</PowerSource>
+		</Robot>
+	</Card>
 
 
 </Collectibles>

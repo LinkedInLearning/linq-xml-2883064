@@ -8,5 +8,8 @@ var collectibles = XElement.Load(root + upPath + path);
 #endregion
 
 // elements returns child collection
-// collectables.Elements("Card").Dump("Cards");
+;
 collectibles.Elements("Card").Elements("Slogan").Dump("Slogans");
+
+
+//collectibles.Elements("Card").Elements("")
