@@ -8,7 +8,15 @@ var collectibles = XElement.Load(root + upPath + path);
 #endregion
 
 // returns the XML data (including the element tags)
-collectibles.Element("Card").Element("Slogan").Dump("Slogan element");
+// Elements can contain content, or other elements
+var monsterElement = collectibles.Element("Card").Element("Monster");
+var eyeElement = collectibles.Element("Card").Element("Monster").Element("EyeCount");
 
-// use .Value to return the element data only.
-collectibles.Element("Card").Element("Slogan").Value.Dump("Slogan value");
+eyeElement.Dump("EyeCount element");
+// use .Value to return the element contents.
+eyeElement.Value.Dump("EyeCount element");
+
+// what about elements with child elements?
+monsterElement.Dump("Monster element");
+monsterElement.Value.Dump("Monster value");
+ 

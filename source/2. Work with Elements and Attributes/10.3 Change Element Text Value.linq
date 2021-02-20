@@ -8,14 +8,14 @@ var collectibles = XElement.Load(root + upPath + path);
 #endregion
 
 // returns the XML data (including the element tags)
-var sloganElement = collectibles.Element("Card").Element("Slogan");
-sloganElement.Dump("Slogan element");
+// Elements can contain content, or other elements
+var monsterElement = collectibles.Element("Card").Element("Monster");
 
-// use .Value to return the element data only.
-sloganElement.Value.Dump("Slogan value");
-
+monsterElement.Dump();
+monsterElement.Value.Dump("Monster value");
 // change the value
+monsterElement.Value= "Replace Everything";
 
-sloganElement.SetValue("Triple Trouble");
+monsterElement.Dump("Modified Monster element");
+monsterElement.Value.Dump("Modified Monster value");
 
-sloganElement.Value.Dump("Modified value");

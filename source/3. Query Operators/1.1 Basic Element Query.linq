@@ -9,6 +9,7 @@ var collectibles = XElement.Load(root + upPath + path);
 
 // use the LINQ Query operators and syntax
 // collectibles.Dump();
+
 var q = from card in collectibles.Elements()
 		select card;
 		

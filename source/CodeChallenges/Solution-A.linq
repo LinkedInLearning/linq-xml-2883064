@@ -3,7 +3,7 @@
 #region Load WebColors xml file
 var root = Path.GetDirectoryName(Util.CurrentQueryPath);
 var upPath = @"\..\";
-var path = @"WebColors.xml";
+var path = @"WebColorsA.xml";
 var allElements = XElement.Load(root + upPath + path);
 #endregion
 
@@ -14,7 +14,7 @@ var q = from color in allElements.Elements()
 		new
 		{
 			ColorName = color.Attribute("color-name").Value,
-			Formula = $"rgb ({color.Element("Red")}, {color.Element("Green")}, {color.Element("Blue")})"};
+			Formula = $"rgb ({color.Element("Red").Value}, {color.Element("Green").Value}, {color.Element("Blue").Value})"};
 
 	
 q.Dump();

@@ -13,7 +13,7 @@ var q = from card in collectibles.Elements()
 		let bid = card.Element("Prices").Element("BidPrice")
 		let cat = card.Element("Prices").Element("CatalogPrice")
 		
-		where double.Parse(bid.Value) > 12.00
+		
 		select new
 		{
 			CardName = card.Attribute("card-name").Value,

@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Example data for LinkedIn Learning course
+     Course name: .NET Essentials: LINQ for XML
+
+     Note: This XML example is for demonstration purposes. It contains data in elements and attributes. -->
+<!-- A subset of the standard webcolors.-->
+<WebColors>
+
+	<Color color-name="DarkRed" color-family="Red">
+		<Hex>8B0000</Hex>
+		<Red>139</Red>
+		<Green>0</Green>
+		<Blue>0</Blue>
+		<Hue>0</Hue>
+		<Saturation>68</Saturation>
+		<Lightness>42</Lightness>
+	</Color>
+	<Color color-name="FireBrick" color-family="Red">
+		<Hex>B22222</Hex>
+		<Red>178</Red>
+		<Green>34</Green>
+		<Blue>34</Blue>
+		<Hue>0</Hue>
+		<Saturation>53</Saturation>
+		<Lightness>58</Lightness>
+	</Color>
+	<Color color-name="Crimson" color-family="Red">
+		<Hex>DC143C</Hex>
+		<Red>220</Red>
+		<Green>20</Green>
+		<Blue>60</Blue>
+		<Hue>348</Hue>
+		<Saturation>83</Saturation>
+		<Lightness>47</Lightness>
+	</Color>
+	<Color color-name="DarkKhaki" color-family="Yellow">
+		<Hex>BDB76B</Hex>
+		<Red>189</Red>
+		<Green>183</Green>
+		<Blue>107</Blue>
+		<Hue>56</Hue>
+		<Saturation>38</Saturation>
+		<Lightness>58</Lightness>
+	</Color>
+	<Color color-name="PaleGoldenrod" color-family="Yellow">
+		<Hex>EEE8AA</Hex>
+		<Red>238</Red>
+		<Green>232</Green>
+		<Blue>170</Blue>
+		<Hue>55</Hue>
+		<Saturation>67</Saturation>
+		<Lightness>80</Lightness>
+	</Color>
+	<Color color-name="LemonChiffon" color-family="Yellow">
+		<Hex>FFFACD</Hex>
+		<Red>255</Red>
+		<Green>250</Green>
+		<Blue>205</Blue>
+		<Hue>54</Hue>
+		<Saturation>100</Saturation>
+		<Lightness>100</Lightness>
+	</Color>
+
+	<Color color-name="Tomato" color-family="Orange">
+		<Hex>FF6347</Hex>
+		<Red>255</Red>
+		<Green>99</Green>
+		<Blue>99</Blue>
+		<Hue>9</Hue>
+		<Saturation>100</Saturation>
+		<Lightness>64</Lightness>
+	</Color>
+	<Color color-name="Coral" color-family="Orange">
+		<Hex>FF7F50</Hex>
+		<Red>255</Red>
+		<Green>255</Green>
+		<Blue>80</Blue>
+		<Hue>16</Hue>
+		<Saturation>100</Saturation>
+		<Lightness>66</Lightness>
+	</Color>
+	<Color color-name="Gold" color-family="Orange">
+		<Hex>FFD700</Hex>
+		<Red>255</Red>
+		<Green>215</Green>
+		<Blue>0</Blue>
+		<Hue>51</Hue>
+		<Saturation>100</Saturation>
+		<Lightness>50</Lightness>
+	</Color>
+
+	<Color color-name="DeepPink" color-family="Pink">
+		<Hex>FF1493</Hex>
+		<Red>255</Red>
+		<Green>20</Green>
+		<Blue>147</Blue>
+		<Hue>328</Hue>
+		<Saturation>100</Saturation>
+		<Lightness>54</Lightness>
+	</Color>
+	<Color color-name="HotPink" color-family="Pink">
+		<Hex>FF69B4</Hex>
+		<Red>255</Red>
+		<Green>105</Green>
+		<Blue>180</Blue>
+		<Hue>350</Hue>
+		<Saturation>10</Saturation>
+		<Lightness>88</Lightness>
+	</Color>
+	<Color color-name="Pink" color-family="Pink">
+		<Hex>FFC0CB</Hex>
+		<Red>255</Red>
+		<Green>192</Green>
+		<Blue>203</Blue>
+		<Hue>350</Hue>
+		<Saturation>100</Saturation>
+		<Lightness>88</Lightness>
+	</Color>
+
+	<Color color-name="Lime" color-family="Green">
+		<Hex>00FF00</Hex>
+		<Red>0</Red>
+		<Green>255</Green>
+		<Blue>0</Blue>
+		<Hue>120</Hue>
+		<Saturation>100</Saturation>
+		<Lightness>50</Lightness>
+	</Color>
+	<Color color-name="SpringGreen" color-family="Green">
+		<Hex>00FF7F</Hex>
+		<Red>0</Red>
+		<Green>255</Green>
+		<Blue>127</Blue>
+		<Hue>150</Hue>
+		<Saturation>100</Saturation>
+		<Lightness>50</Lightness>
+	</Color>
+	<Color color-name="LawnGreen" color-family="Green">
+		<Hex>7CFC00</Hex>
+		<Red>124</Red>
+		<Green>252</Green>
+		<Blue>0</Blue>
+		<Hue>90</Hue>
+		<Saturation>100</Saturation>
+		<Lightness>49</Lightness>
+	</Color>
+
+	<Color color-name="Navy" color-family="Blue">
+		<Hex>000080</Hex>
+		<Red>0</Red>
+		<Green>0</Green>
+		<Blue>128</Blue>
+		<Hue>240</Hue>
+		<Saturation>100</Saturation>
+		<Lightness>25</Lightness>
+	</Color>
+	<Color color-name="SkyBlue" color-family="Blue">
+		<Hex>87CEEB</Hex>
+		<Red>135</Red>
+		<Green>206</Green>
+		<Blue>235</Blue>
+		<Hue>197</Hue>
+		<Saturation>71</Saturation>
+		<Lightness>73</Lightness>
+	</Color>
+	<Color color-name="PowderBlue" color-family="Blue">
+		<Hex>B0E0E6</Hex>
+		<Red>176</Red>
+		<Green>224</Green>
+		<Blue>230</Blue>
+		<Hue>187</Hue>
+		<Saturation>52</Saturation>
+		<Lightness>80</Lightness>
+	</Color>
+
+	<!-- Cyan and Aqua are names for the same color value -->
+	<Color color-name="Cyan" color-family="Cyan">
+		<Hex>00FFFF</Hex>
+		<Red>0</Red>
+		<Green>255</Green>
+		<Blue>255</Blue>
+		<Hue>180</Hue>
+		<Saturation>100</Saturation>
+		<Lightness>50</Lightness>
+	</Color>
+	<Color color-name="Aqua" color-family="Cyan">
+		<Hex>00FFFF</Hex>
+		<Red>0</Red>
+		<Green>255</Green>
+		<Blue>255</Blue>
+		<Hue>180</Hue>
+		<Saturation>100</Saturation>
+		<Lightness>50</Lightness>
+	</Color>
+	<Color color-name="Turquoise" color-family="Cyan">
+		<Hex>40E0D0</Hex>
+		<Red>64</Red>
+		<Green>224</Green>
+		<Blue>208</Blue>
+		<Hue>174</Hue>
+		<Saturation>72</Saturation>
+		<Lightness>56</Lightness>
+	</Color>
+	<Color color-name="Aquamarine" color-family="Cyan">
+		<Hex>7FFFD4</Hex>
+		<Red>127</Red>
+		<Green>255</Green>
+		<Blue>212</Blue>
+		<Hue>160</Hue>
+		<Saturation>100</Saturation>
+		<Lightness>75</Lightness>
+	</Color>
+
+	<!-- this color has an incorrect charactor in HexValue-->
+	<Color color-name="Indigo" color-family="Purple">
+		<Hex>4B008H</Hex>
+		<Red>75</Red>
+		<Green>0</Green>
+		<Blue>130</Blue>
+		<Hue>275</Hue>
+		<Saturation>100</Saturation>
+		<Lightness>25</Lightness>
+	</Color>
+
+	<Color color-name="Fuchsia" color-family="Purple">
+		<Hex>FF00FF</Hex>
+		<Red>238</Red>
+		<Green>130</Green>
+		<Blue>238</Blue>
+		<Hue>30</Hue>
+		<Saturation>76</Saturation>
+		<Lightness>72</Lightness>
+	</Color>
+	<Color color-name="Violet" color-family="Purple">
+		<Hex>EE82EE</Hex>
+		<Red>238</Red>
+		<Green>130</Green>
+		<Blue>238</Blue>
+		<Hue>30</Hue>
+		<Saturation>76</Saturation>
+		<Lightness>72</Lightness>
+	</Color>
+
+	<Color color-name="Seashell" color-family="Pale">
+		<Hex>FFF5EE</Hex>
+		<Red>255</Red>
+		<Green>245</Green>
+		<Blue>237</Blue>
+		<Hue>25</Hue>
+		<Saturation>100</Saturation>
+		<Lightness>97</Lightness>
+	</Color>
+	<Color color-name="Snow" color-family="Pale">
+		<Hex>FFFAFA</Hex>
+		<Red>255</Red>
+		<Green>250</Green>
+		<Blue>250</Blue>
+		<Hue>0</Hue>
+		<Saturation>100</Saturation>
+		<Lightness>99</Lightness>
+	</Color>
+	<Color color-name="Ivory" color-family="Pale">
+		<Hex>FFFAFA</Hex>
+		<Red>255</Red>
+		<Green>250</Green>
+		<Blue>250</Blue>
+		<Hue>0</Hue>
+		<Saturation>100</Saturation>
+		<Lightness>99</Lightness>
+	</Color>
+
+	<!-- this color has is missing Hue, Saturation and Lightness values -->
+	<Color color-name="Wheat" color-family="Brown">
+		<Hex>F5DEB3</Hex>
+		<Red>2245</Red>
+		<Green>222</Green>
+		<Blue>179</Blue>
+		<Hue>5</Hue>
+		<Saturation>100</Saturation>
+		<Lightness>45</Lightness>
+	</Color>
+	<Color color-name="BlanchedAlmond" color-family="Brown">
+		<Hex>FFEBCD</Hex>
+		<Red>255</Red>
+		<Green>235</Green>
+		<Blue>205</Blue>
+		<Hue>36</Hue>
+		<Saturation>10</Saturation>
+		<Lightness>90</Lightness>
+	</Color>
+	<Color color-name="CornSilk" color-family="Brown">
+		<Hex>FFF8DC</Hex>
+		<Red>255</Red>
+		<Green>248</Green>
+		<Blue>220</Blue>
+		<Hue>48</Hue>
+		<Saturation>100</Saturation>
+		<Lightness>93</Lightness>
+	</Color>
+
+	<Color color-name="DarkGray" color-family="Gray">
+		<Hex>A9A9A9</Hex>
+		<Red>169</Red>
+		<Green>169</Green>
+		<Blue>169</Blue>
+		<Hue>0</Hue>
+		<Saturation>0</Saturation>
+		<Lightness>66</Lightness>
+	</Color>
+	<Color color-name="SlateGray" color-family="Gray">
+		<Hex>708090</Hex>
+		<Red>112</Red>
+		<Green>128</Green>
+		<Blue>144</Blue>
+		<Hue>210</Hue>
+		<Saturation>13</Saturation>
+		<Lightness>50</Lightness>
+	</Color>
+	<Color color-name="Black" color-family="Gray">
+		<Hex>000000</Hex>
+		<Red></Red>
+		<Green>0</Green>
+		<Blue>0</Blue>
+		<Hue>0</Hue>
+		<Saturation>0</Saturation>
+		<Lightness>0</Lightness>
+	</Color>
+
+	<!-- this color  is missing Saturation value -->
+	<Color color-name="DarkOrchid" color-family="Purple">
+		<Hex>9932CC</Hex>
+		<Red>153</Red>
+		<Green>50</Green>
+		<Blue>204</Blue>
+		<Hue>280</Hue>
+		<Saturation></Saturation>
+		<Lightness>66</Lightness>
+	</Color>
+
+	<!-- this color  is missing Hue value -->
+	<Color color-name="CornflowerBlue" color-family="Blue">
+		<Hex>6495ED</Hex>
+		<Red>100</Red>
+		<Green>149</Green>
+		<Blue>237</Blue>
+		<Hue></Hue>
+		<Saturation>79</Saturation>
+		<Lightness>66</Lightness>
+	</Color>
+	<!-- this color has a period in color name -->
+	<Color color-name="Mint.Cream" color-family="Blue">
+		<Hex>F5FFFA</Hex>
+		<Red>245</Red>
+		<Green>255</Green>
+		<Blue>250</Blue>
+		<Hue>150</Hue>
+		<Saturation>100</Saturation>
+		<Lightness>98</Lightness>
+	</Color>
+	
+</WebColors>

@@ -15,3 +15,6 @@ teamnameAttribute.Value.Dump("team-name value");
 
 teamnameAttribute.Value = "DarkShadows";
 teamnameAttribute.Dump("team-name attribute");
+
+
+teamnameAttribute.Value.Dump("Modified team-name value");
