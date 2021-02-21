@@ -6,7 +6,7 @@ void Main()
 {
 	var root = Path.GetDirectoryName(Util.CurrentQueryPath);
 	var upPath = @"\..\";
-	var path = @"WebColors.xml";
+	var path = @"WebColorsB.xml";
 	var webColors = XElement.Load(root + upPath + path);
 	#endregion
 	// My code challenge solution

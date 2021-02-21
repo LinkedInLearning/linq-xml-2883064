@@ -7,7 +7,7 @@ var path = @"BigStarCollectibles-MissingXML.xml";
 var collectibles = XElement.Load(root + upPath + path);
 #endregion
 
-var q1 = from color in collectibles.Elements()
-		 group color by color.Attribute("team-name").Value; // key selector
+var q1 = from card in collectibles.Elements()
+		 group card by card.Attribute("team-name").Value; // key selector
 
 q1.Dump();

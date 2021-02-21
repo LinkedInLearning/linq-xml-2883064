@@ -270,7 +270,6 @@
 		<Lightness>99</Lightness>
 	</Color>
 
-	<!-- this color has is missing Hue, Saturation and Lightness values -->
 	<Color color-name="Wheat" color-family="Brown">
 		<Hex>F5DEB3</Hex>
 		<Red>2245</Red>

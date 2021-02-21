@@ -3,16 +3,16 @@
 #region Load WebColors xml file
 var root = Path.GetDirectoryName(Util.CurrentQueryPath);
 var upPath = @"\..\";
-var path = @"WebColors.xml";
+var path = @"WebColorsB.xml";
 var webColors = XElement.Load(root + upPath + path);
 #endregion
 
 // My code challenge solution
 
-var q = from c in webColors.Elements()
-		where c.Element("Saturation").Value == ""
-		// && String.IsNullOrEmpty( c.Element("Hue").Value)
+var q = from color in webColors.Elements()
+				where String.IsNullOrEmpty(color.Element("Hue").Value)
+				// && color.Element("Saturation").Value == ""
 
-		select c;
+				select color;
 
 q.Dump();

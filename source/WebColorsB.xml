@@ -34,19 +34,6 @@
 		<Saturation>83</Saturation>
 		<Lightness>47</Lightness>
 	</Color>
-	<Color color-name="Crimson" color-family="Red">
-		<Hex>DC143C</Hex>
-		<RGB>
-			<Red>220</Red>
-			<Green>20</Green>
-			<Blue>60</Blue>
-		</RGB>
-		<HSL>
-			<Hue>348</Hue>
-			<Saturation>83</Saturation>
-			<Lightness>47</Lightness>
-		</HSL>
-	</Color>
 
 	<Color color-name="DarkKhaki" color-family="Yellow">
 		<Hex>BDB76B</Hex>

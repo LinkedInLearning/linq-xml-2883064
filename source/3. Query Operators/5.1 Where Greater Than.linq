@@ -12,15 +12,15 @@ var collectibles = XElement.Load(root + upPath + path);
 // used in the query
 // this example, do subtraction on the parsed values
 var q = from card in collectibles.Elements()
-		let bid = card.Element("Prices").Element("BidPrice")
-		
-		where decimal.Parse(bid.Value) > 12.00M
-		select new
-		{
-			CardName = card.Attribute("card-name").Value,
-			BidPrice = bid.Value
-			
+				let bid = card.Element("Prices").Element("BidPrice")
 
-		};
+				where decimal.Parse(bid.Value) > 12.00M
+				select new
+				{
+					CardName = card.Attribute("card-name").Value,
+					BidPrice = bid.Value
+
+
+				};
 
 q.Dump();

@@ -16,8 +16,8 @@ var q = from card in collectibles.Elements()
 		let cat = card.Element("Prices").Element("CatalogPrice")
 		let bidParsed = decimal.Parse(bid.Value)
 		let catParsed = decimal.Parse(cat.Value)
-		
-		orderby catParsed
+		 
+		orderby bidParsed descending
 		select new
 		{
 			CardName = card.Attribute("card-name").Value,

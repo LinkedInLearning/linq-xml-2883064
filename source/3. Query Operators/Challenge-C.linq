@@ -12,16 +12,15 @@ public bool IsValidHex(string candidate)
 }
 // Challenge:
 
-// use the WebColors.xml file as the data source
+// use the WebColorsB.xml file as the data source
 
 // The WebColors data has some invalid data 
 // HexValue element.
 
-
-
-// 2.
+// 1.
 // Write a query expression that finds ColorName values that contains [full stop, period] (".")
 
+// 2.
 // Also find HexValues that are not valid hexadecimal values (0-9, A, B, C, D, E, F)
 // FFFF00 is valid
 // FF34T3 is invalid because it has an invalid char (T)

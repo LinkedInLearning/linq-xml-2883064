@@ -9,12 +9,13 @@ var allElements = XElement.Load(root + upPath + path);
 
 // My code challenge solution
 var q = from color in allElements.Elements()
-		
-		select
-		new
-		{
-			ColorName = color.Attribute("color-name").Value,
-			Formula = $"rgb ({color.Element("Red").Value}, {color.Element("Green").Value}, {color.Element("Blue").Value})"};
 
-	
+				select
+				new
+				{
+					ColorName = color.Attribute("color-name").Value,
+					Formula = $"rgb ({color.Element("Red").Value}, {color.Element("Green").Value}, {color.Element("Blue").Value})"
+				};
+
+
 q.Dump();
