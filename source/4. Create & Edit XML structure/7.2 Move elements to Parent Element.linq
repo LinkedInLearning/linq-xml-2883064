@@ -10,10 +10,10 @@ var collectibles = XElement.Load(root + upPath + path);
 // use a foreach loop to move children of one element
 // to another parent
 
-collectibles.Dump("Collectibles");
+collectibles.DumpFormatted("Collectibles");
 
 var q = from c in collectibles.Elements()
-		select c;
+				select c;
 foreach (var card in q)
 {
 	// create the new element
@@ -29,4 +29,4 @@ foreach (var card in q)
 }
 
 
-collectibles.Dump("Modified");
+collectibles.DumpFormatted("Modified");

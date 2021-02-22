@@ -8,11 +8,11 @@ var collectibles = XElement.Load(root + upPath + path);
 #endregion
 
 
-collectibles.Dump("All");
+collectibles.Elements().Dump("All");
 var robots = collectibles.Elements().Where(x =>x.Attribute("card-family").Value=="Robot" );
 		
 robots.Dump("Robots Only");
 
 robots.Remove();
 
-collectibles.Dump("Removed the Robots");
+collectibles.Elements().Dump("Removed the Robots");

@@ -10,8 +10,7 @@ var collectibles = XElement.Load(root + upPath + path);
 // add the content of current XML tree into
 // a new parent element
 
-collectibles.Dump("Collectibles");
-
+collectibles.DumpFormatted("Original");
 
 var existingCardElements = collectibles.Elements("Card");
 
@@ -21,4 +20,4 @@ collectibles.Add(new XElement("Cards",existingCardElements));
 // remove the existing element from the <Collectibles> element
 existingCardElements.Remove();
 
-collectibles.Dump("Modified");
+collectibles.DumpFormatted("Modified");

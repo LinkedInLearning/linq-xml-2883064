@@ -20,7 +20,7 @@ void Main()
 		// attributes to Element
 
 		XElement colorNameElement = new XElement("ColorName");
-		colorNameElement.SetValue(color.Attribute("color-name").Value);
+		colorNameElement.Value = (color.Attribute("color-name").Value);
 		color.Add(colorNameElement);
 		
 		XElement colorFamilyElement = new XElement("ColorFamily");

@@ -1,7 +1,8 @@
 <Query Kind="Expression" />
 
 // Code Challenge:
-//
+// // use the WebColorsA.xml file as the data source
+
 // Transform the XML with LINQ
 // Original XML
 	//<Color color-name="Crimson" color-family="Red">

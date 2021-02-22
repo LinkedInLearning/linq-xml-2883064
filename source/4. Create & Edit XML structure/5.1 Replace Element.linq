@@ -9,11 +9,10 @@ var card = XElement.Load(root + upPath + path);
 
 card.Dump("Card");
 
-card.Attribute("team-name").Dump("team-name Attribute");
-
-// replaces existing attributes with new content
- card.ReplaceAttributes(new XAttribute("crew", "DarkShadows?"));
-
-
+card.Element ("Monster").ReplaceWith	(
+							new XElement("Rogue", 
+								new XAttribute("scaly","true"),
+								new XElement("Scariness", 4),
+								new XElement("Flyer", "true")	));
 
 card.Dump("Modified Card");

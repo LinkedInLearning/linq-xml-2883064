@@ -7,7 +7,8 @@ var path = @"CardSimple.xml";
 var card = XElement.Load(root + upPath + path);
 #endregion
 
-card.Dump("Card");
-card.Element("Prices").Remove();
+card.DumpFormatted("Original");
 
-card.Dump("Mocified Card");
+
+card.Element ("PublishedDate").Name = "ReleaseDate";
+card.DumpFormatted("Modified");
