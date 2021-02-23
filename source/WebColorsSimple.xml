@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Example data for LinkedIn Learning course -->
+<WebColors> <!-- XElement contains two child elements -->
+<!-- Color XElement contains one parent and eight child elements -->
+	<Color color-name="FireBrick" color-family="Red"> <!-- XElement and XAttribute-->
+		<Hex>B22222</Hex> <!-- XElement -->
+		<Red>178</Red>		<!-- XElement -->
+		<Green>34</Green> <!-- XElement -->
+		<Blue>34</Blue>		<!-- XElement -->
+		<HSL> 						<!-- XElement -->
+			<Hue>0</Hue> 		<!-- XElement -->
+			<Saturation>53</Saturation> <!-- XElement -->
+			<Lightness>58</Lightness>		<!-- XElement --> <!-- etc. -->
+		</HSL>
+	</Color>
+	<Color color-name="Crimson" color-family="Red">
+		<Hex>DC143C</Hex>
+		<Red>220</Red>
+		<Green>20</Green>
+		<Blue>60</Blue>
+			<HSL>
+		<Hue>348</Hue>
+		<Saturation>83</Saturation>
+		<Lightness>47</Lightness>
+		</HSL>
+	</Color>	
+</WebColors>
